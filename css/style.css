@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+  outline: 0;
 }
 a {
   text-decoration: none;
@@ -16,7 +17,7 @@ ol {
 }
 .container {
   width: 1240px;
-  padding: 64px 104px;
+  /* padding: 64px 104px; */
   margin: 0 auto;
 }
 #footerPart{
@@ -37,7 +38,8 @@ ol {
   font-size: 16px;
   color: #77808b;
   line-height: 150%;
-  padding: 16px 0 40px 0;
+  padding: 12px 0 40px 0;
+  margin-top: 10px;
 }
 .pera p a {
   font-weight: 400;
@@ -104,7 +106,7 @@ ol {
     border: 1px solid #76AEFF;
 }
 .footerright p{
-    padding: 26px 0 8px 0;
+    padding: 10px 0;
 }
 .footerright button{
     background: #3A86FF;
@@ -137,10 +139,18 @@ ol {
     text-align: center;
     color: #ffffff;
 }
+.socialIcon p a:hover{
+    background: transparent;
+    color: #3A86FF;
+}
 .footerbottom{
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
+}
+.footerbottom h4{
+    font-weight: 400;
+
 }
 .location,.email,.phone{
     display: flex;
@@ -164,5 +174,8 @@ ol {
 .footerbottomright{
     display: flex;
     gap: 40px;
+}
+.footerbottomright i{
+    color: #3A86FF;
 }
 
